@@ -1,8 +1,14 @@
 <openerp>
     <data>
+<<<<<<< HEAD
         <!--   <record id="object0" model="customer_edu.customer_edu"> -->
         <!--     <field name="name">Object 0</field> -->
         <!--   </record> -->
+=======
+        <record id="nro" model="customer_edu.customer_edu">
+            <field name="name">Nro.</field>
+        </record>
+>>>>>>> 180bc2ca85956a32856a3ed0ef5ac641bfd77234
         <!--  -->
         <!--   <record id="object0" model="customer_edu.customer_edu"> -->
         <!--     <field name="name">Object 0</field> -->
