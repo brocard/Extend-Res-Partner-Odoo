@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "Modulo clientes para Eduardo Camacho",
+    'name': "Extener módulo clientes y proveedores",
 
     'summary': """
-        Extender el módulo de clientes
+        Extender el módulo de clientes y provedores para campos externos al proyecto
     """,
 
     'description': """

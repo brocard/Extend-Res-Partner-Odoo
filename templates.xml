@@ -19,9 +19,8 @@
         <!--   </dl> -->
         <!-- </template> -->
         <record id="customer_edu_nro" model="ir.ui.view">
-            <field name="name">res_partner.nro</field>
-            <field name="model">res_partner</field>
-            <field name="inherit_id" ref="base.view_partner_form"/>
+            <field name="model">res.partner</field>
+            <field name="inherit_id" ref="base.view.partner.form"/>
             <field name="arch" type="xml">
                 <!-- find field website and add the field nro after it -->
                 <xpath expr="//field[@name='website']" position="after">
