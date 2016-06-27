@@ -24,7 +24,17 @@
             <field name="arch" type="xml">
                 <!-- find field website and add the field nro after it -->
                 <xpath expr="//field[@name='website']" position="after">
-                    <field name="nro_customer" />
+                    <field name="nro_supplier" attrs="{'invisible': [('customer','=', True)]}"/>
+                </xpath>
+                <xpath expr="//field[@name='phone']" position="after">
+                    <field name="nro_phone" />
+                    <field name="nro_phone_1" />
+                </xpath>
+                <xpath expr="//field[@name='nro_supplier']" position="after">
+                    <field name="plazo" placeholder="Plazo" attrs="{'invisible': [('customer','=', True)]}"/>
+                </xpath>
+                <xpath expr="//field[@name='mobile']" position="after">
+                    <field name="nro_mobile" />
                 </xpath>
             </field>
         </record>
