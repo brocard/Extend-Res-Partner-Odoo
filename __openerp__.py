@@ -10,8 +10,8 @@
         Extender el módulo de clientes con campos extras
     """,
 
-    'author': "Vaquero y Charro",
-    'website': "http://www.vaqueroycharro.com",
+    'author': "YBD <brocard@gmail.com>",
+    'website': "https://twitter.com/brocardjr",
 
     # Categories can be used to filter modules in modules listing
     # Check https://github.com/odoo/odoo/blob/master/openerp/addons/base/module/module_data.xml
